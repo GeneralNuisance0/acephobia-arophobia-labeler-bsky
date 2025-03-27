@@ -33,9 +33,9 @@ export const LABELS: Label[] = [
   },
   {
     rkey: 'insert-rkey-here',
-    identifier: 'terfs',
+    identifier: 'coopt',
     locales: [
-      { lang: 'en', name: 'TERF-adjacent', description: 'Post label for ace/arophobia echoing TERF rhetoric. Does not label transphobia or transmisogyny - see @asukafield.xyz for that.'}
+      { lang: 'en', name: 'Co-Opters', description: 'Users co-opting ace/arophobia when criticized for misogyny, transphobia, etc.'}
     ]
   },
 ];
