@@ -5,42 +5,37 @@ export const LABEL_LIMIT = 1;
 export const LABELS: Label[] = [
   {
     rkey: 'insert-rkey-here',
-    identifier: 'earth',
+    identifier: 'acephobia',
     locales: [
-      { lang: 'en', name: 'Earth 🌎', description: 'Earth'},
-      { lang: 'pt-BR', name: 'Terra 🌎', description: 'Terra'},
+      { lang: 'en', name: 'Acephobia (general)', description: 'Post/account label. Posts labelled acephobic demonstrate a generally acephobic stance. Repetitive or severe acephobia may result in an account label. For public figures/celebrities, acephobic comments made off-site may result in a label.'}
     ]
   },
   {
     rkey: 'insert-rkey-here',
-    identifier: 'fire',
+    identifier: 'arophobia',
     locales: [
-      { lang: 'en', name: 'Fire 🔥', description: 'Fire'},
-      { lang: 'pt-BR', name: 'Fogo 🔥', description: 'Fogo'},
+      { lang: 'en', name: 'Arophobia', description: 'Post/account label. Posts and users may be labeled by this for content that isn\'t neccesarily acephobic, but definitely arophobic in nature, as there is heavy overlap between the two. Repeat and severe offenders will get an account label.'}
     ]
   },
   {
     rkey: 'insert-rkey-here',
-    identifier: 'air',
+    identifier: 'ace-exclusionism',
     locales: [
-      { lang: 'en', name: 'Air 💨', description: 'Air'},
-      { lang: 'pt-BR', name: 'Ar 💨', description: 'Ar'},
+      { lang: 'en', name: 'Ace/Aro Exclusionism', description: 'Post/account label. Posts with this label demonstrate an exclusionary stance, such as deeming sex-favourable aces, or aces and aros who politically align with sex positivity as not being \'real\' aces/aros.'}
     ]
   },
   {
     rkey: 'insert-rkey-here',
-    identifier: 'water',
+    identifier: 'ableism',
     locales: [
-      { lang: 'en', name: 'Water 💧', description: 'Water'},
-      { lang: 'pt-BR', name: 'Água 💧', description: 'Água'},
+      { lang: 'en', name: 'Ableism Crossover Episode', description: 'Post label for aro/acephobia that specifically also targets disabled people.'}
     ]
   },
   {
     rkey: 'insert-rkey-here',
-    identifier: 'love',
+    identifier: 'terfs',
     locales: [
-      { lang: 'en', name: 'Love 💞', description: 'Love'},
-      { lang: 'pt-BR', name: 'Amor 💞', description: 'Amor'},
+      { lang: 'en', name: 'TERF-adjacent', description: 'Post label for ace/arophobia echoing TERF rhetoric. Does not label transphobia or transmisogyny - see @asukafield.xyz for that.'}
     ]
   },
 ];
